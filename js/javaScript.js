@@ -1,2 +1,1 @@
-
 prompt("yoshingz nichada")
