@@ -1,1 +1,1 @@
-confirm("name")
+prompt("nacha yoshdasz")
