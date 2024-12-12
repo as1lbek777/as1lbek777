@@ -1,0 +1,131 @@
+main{
+    background-color: #f7f7f7;
+}
+main .flex{
+    display: flex;
+    margin-left: 115px;
+}
+main div .mleft{
+    margin-left: 50px;
+}
+main div .pleft{
+    margin-left: 50px;
+}
+main nav img{
+    width: 100%;
+    height: 580px;
+}
+main div .card{
+    width: 350px;
+    height: 380px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+main div img{
+    width: 240px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 55px;
+    border-radius: 10px;
+}
+main div h2{
+    margin-top: -1px;
+    margin-left: 20px;
+}
+main div p{
+    margin-left: 40px;
+    margin-top:-18px;
+}
+main div .mt{
+    margin-top: -28px;
+    margin-left: 180px;
+}
+main div .ml{
+    margin-top: -20px;
+    padding-left: 220px;
+}
+main div .card2{
+    width: 350px;
+    height: 380px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+main div img{
+    width: 240px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 55px;
+    border-radius: 10px;
+}
+main div .h2{
+    margin-top: -1px;
+    margin-left: 20px;
+}
+main div .p1{
+    margin-left: 40px;
+    margin-top:-18px;
+}
+main div .p2{
+    margin-top: -28px;
+    margin-left: 200px;
+}
+main div .p3{
+    margin-top: -20px;
+    padding-left: 220px;
+}
+main div .card2{
+    width: 350px;
+    height: 380px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+main div img{
+    width: 240px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 55px;
+    border-radius: 10px;
+}
+main div .h2{
+    margin-top: -1px;
+    margin-left: 20px;
+}
+main div .p1{
+    margin-left: 40px;
+    margin-top:-18px;
+}
+main div .p2{
+    margin-top: -28px;
+    margin-left: 200px;
+}
+main div .p3{
+    margin-top: -20px;
+    padding-left: 220px;
+}
+main div button{
+    margin-left: 45px;
+    width: 250px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+}
+button:hover{
+    background-color: black;
+}
+main div button{
+    margin-left: 45px;
+    width: 250px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: black;
+    text-transform: uppercase;
+}
