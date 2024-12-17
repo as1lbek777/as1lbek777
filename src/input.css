@@ -1,4 +1,4 @@
-main{
+/* main{
     background-color: #f7f7f7;
 }
 main .flex{
@@ -128,4 +128,57 @@ main div button{
 button:hover{
     background-color: black;
     text-transform: uppercase;
+} */
+ .flex{
+    flex-wrap: wrap;
+    display: flex;
+ }
+.card{
+    background-color: black;
+    width: 250px;
+    height: 380px;
+    border: 2px solid chartreuse;
+    color: white;
+    border-radius: 10px;
+}
+.card2{
+    background-color: chocolate;
+    width: 550px;
+    height: 380px;
+    border: 2px solid blue;
+    color: white;
+    border-radius: 10px;
+}
+.card3{
+    background-color: black;
+    width: 220px;
+    height: 850px;
+    border: 2px solid chartreuse;
+    color: white;
+    border-radius: 10px;
+}
+.card4{
+    background-color: chocolate;
+    width: 320px;
+    height: 380px;
+    border: 2px solid blue;
+    color: white;
+    border-radius: 10px;
+}
+.card5{
+    margin-top: -29.2rem;
+    background-color: aquamarine;
+    width: 1125px;
+    height: auto;
+    border: 2px solid gold;
+    color: black;
+    border-radius: 10px;
+}
+.card6{
+    background-color: burlywood;
+    width: 1348px;
+    height: auto;
+    border: 2px solid red;
+    color: black;
+    border-radius: 10px;
 }
