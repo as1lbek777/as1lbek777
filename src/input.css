@@ -133,7 +133,7 @@ button:hover{
     flex-wrap: wrap;
     display: flex;
  }
-.card{
+.card{  
     background-color: black;
     width: 250px;
     height: 380px;
@@ -142,14 +142,16 @@ button:hover{
     border-radius: 10px;
 }
 .card2{
+    margin-left: 5px;
     background-color: chocolate;
-    width: 550px;
+    width: 545px;
     height: 380px;
     border: 2px solid blue;
     color: white;
     border-radius: 10px;
 }
 .card3{
+    margin-left: 5px;
     background-color: black;
     width: 220px;
     height: 850px;
@@ -158,6 +160,7 @@ button:hover{
     border-radius: 10px;
 }
 .card4{
+    margin-right: 5px;
     background-color: chocolate;
     width: 320px;
     height: 380px;
@@ -166,17 +169,18 @@ button:hover{
     border-radius: 10px;
 }
 .card5{
-    margin-top: -29.2rem;
+    margin-top: -29.1rem;
     background-color: aquamarine;
-    width: 1125px;
+    width: 1130px;
     height: auto;
     border: 2px solid gold;
     color: black;
     border-radius: 10px;
 }
 .card6{
+    margin-top: 5px;
     background-color: burlywood;
-    width: 1348px;
+    width: 1355px;
     height: auto;
     border: 2px solid red;
     color: black;
