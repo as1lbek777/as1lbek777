@@ -53,3 +53,32 @@ footer{
     background-color: #aeaae6;
     text-align: center;
 }
+.main{
+    background-color: black;
+    padding-bottom: 5px;
+}
+.div1{
+    width: 30%;
+    height: 300px;
+    background-color: red;
+    border: 5px solid white;
+}
+.div2{
+    width: 415px;
+    height: 80px;
+    margin-top: 272px;
+    margin-left: -5px;
+    background-color: red;
+    border: 5px solid white;
+}
+.div3{
+    width: 70%;
+    height: 380px;
+    background-color: aqua;
+    border: 5px solid white;
+}
+.div1 p{
+    text-align: center;
+    font-size: 20px;
+    
+}
