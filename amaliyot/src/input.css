@@ -12,7 +12,7 @@ header p{
     text-align: center;
     padding-top: 60px;
 }
-main{
+.main{
     display: flex;
 }
 .card2{
@@ -31,6 +31,10 @@ main{
 }
 footer{
     display: flex;
+}
+.main{
+    background-color: #f7f7f7;
+    padding-bottom: 2px;
 }
 .card4{
     width: 33.3%;
@@ -53,22 +57,18 @@ footer{
     background-color: #aeaae6;
     text-align: center;
 }
-.main{
-    background-color: black;
-    padding-bottom: 5px;
-}
 .div1{
     width: 30%;
     height: 300px;
-    background-color: red;
+    background-color: rgb(228, 80, 80);
     border: 5px solid white;
 }
 .div2{
     width: 415px;
     height: 80px;
-    margin-top: 272px;
+    margin-top: 127px;
     margin-left: -5px;
-    background-color: red;
+    background-color: rgb(228, 80, 80);
     border: 5px solid white;
 }
 .div3{
@@ -77,8 +77,145 @@ footer{
     background-color: aqua;
     border: 5px solid white;
 }
-.div1 p{
+.div1 .p1{
     text-align: center;
     font-size: 20px;
-    
+    padding-top: 145px;
+}
+.div2 .p2{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 25px;
+}
+.div3 .p3{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 180px;
+}
+.flex{
+    display: flex;
+    margin-bottom: 40px;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    color: green;
+}
+.div4{
+    width: 40%;
+    height: 170px;
+    background-color: red;
+}
+.div5{
+    width: 100%;
+    height: 170px;
+    background-color: green;
+}
+.div6{
+    width: 40%;
+    height: 170px;
+    background-color: blue;
+}
+
+
+table, .th1, td {
+    border-color: 2px solid green;
+    border-collapse: collapse;
+}
+.th1{
+    background-color: green;
+    height: 2rem;
+}
+.td{
+    background-color: grey;
+    height: 2rem;
+}
+
+
+.table, th, td {
+    margin: 40px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    width: 20%;
+    height: 2rem;
+}
+th{
+    width: 30%
+}
+
+
+.table2, .th2, .td2{
+    border: hidden;
+    margin: 40px;
+}
+.td{
+    background-color: gray;
+}
+
+
+.table3, .th3, .td3, .td4{
+    border: 3px solid black;
+    margin: 40px;
+}
+.th3{
+    background-color: green;
+    text-align: center;
+}
+.td3{
+    text-align: center;
+}
+.td4{
+    background-color: aqua;
+    text-align: center;
+}
+
+
+.table10{
+    margin: 40px;
+    border-top: hidden;
+    border-bottom: hidden;
+}
+.th4{
+    border-top-left-radius: 15px;
+    background-color: gray;
+    border-left: hidden;
+}
+.th5{
+    background-color: gray;
+}
+.th6{
+    border-right: hidden;
+    border-top-right-radius: 15px;
+    background-color: gray;
+}
+.td5{
+    border-left: hidden;
+    border-bottom-left-radius: 15px;
+    background-color: gray;
+    height: 2rem;
+}
+.td6{
+    border-right: hidden;
+    border-bottom-right-radius: 15px;
+    background-color: gray;
+}
+.table4, .th7{
+    margin: 40px;
+    border: hidden;
+    text-align: center;
+}
+.th8{
+    background-color: blue;
+    color: white;
+}
+.td7{
+    background-color: rgb(173, 173, 225);
+}
+.footer{
+    background-color: blue;
+    color: white;
 }
