@@ -1,0 +1,9 @@
+*{
+    margin: 1px;
+    padding: 0;
+}
+div{
+    border: 100%;
+    border: 2px solid gray;
+    padding: 10px;
+}

@@ -4,12 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../amaliyot/src/input.css">
+    <link rel="stylesheet" href="./src/input.css">
 </head>
 <body>
-    <form>
-        <label for="text">Name</label>
-        <input type="text">
-    </form>
+    <div>
+        <form>
+            <label for="sulat">Salution</label><br>
+            <input type="" required>    <br>
+            <br>
+            <label for="name">First name:</label>
+            <input type="text" id="name" required>   <br>
+            <br>
+            <label for="lastname">Last name:</label>
+            <input type="text" id="lastname" required>  <br>
+            <br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="gender" required>Male
+            <input type="radio" name="gender" id="gender" required>Female      <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>    <br>
+            <br>
+            <label for="data">Data of Birth</label>
+            <input type="date" required>   <br>
+            <br>
+            <label for="text">Address:</label>    <br>
+            <textarea name="text" id="text"></textarea>    <br>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
