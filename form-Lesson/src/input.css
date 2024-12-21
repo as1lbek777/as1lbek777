@@ -6,4 +6,16 @@ div{
     border: 100%;
     border: 2px solid gray;
     padding: 10px;
+    margin-bottom: 20px;
+}
+
+.input1{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1.5px solid gray;
+    font-size: 18px;
+    color: blue;
 }

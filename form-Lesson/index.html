@@ -9,8 +9,10 @@
 <body>
     <div>
         <form>
-            <label for="sulat">Salution</label><br>
-            <input type="" required>    <br>
+            Salutation <br>
+            <select>
+                <option value="">--none--</option>
+            </select>      <br>
             <br>
             <label for="name">First name:</label>
             <input type="text" id="name" required>   <br>
@@ -34,5 +36,23 @@
             <button type="submit">Submit</button>
         </form>
     </div>
+    <form>
+        <label for="name">Name</label>
+        <input class="input1" type="text" name="name" id="name" placeholder="example:Asilbek" required>     <br>
+
+        <label for="email">Email</label>
+        <input class="input1" type="email" name="email" id="email" placeholder="example:asilbek070@gmail.com" required>     <br>
+
+        <label for="password">Password</label>
+        <input class="input1" type="password" name="password" id="password" placeholder="example:1234" required>    <br>
+
+        <label for="gen">Gender</label>
+        <input type="radio" name="gen" id="gen" required> Male
+        <input type="radio" name="gen" id="gen" required> Famele    <br>
+
+        <label for="Birth">Birthdate</label>
+        <input class="input1" type="date" name="Birth" id="Birth" required>
+
+    </form>
 </body>
 </html>
