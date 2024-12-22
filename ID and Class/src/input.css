@@ -428,3 +428,6 @@ main section div form button {
     background-color: black;
     text-transform: uppercase;
 }
+.container i{
+    display: none;
+}
