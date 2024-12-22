@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container{
@@ -19,6 +18,7 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #1e2a38;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container ul{
@@ -31,4 +31,3 @@
 .container ul li a{
     color: #070a07;
 }
-
