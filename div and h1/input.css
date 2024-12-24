@@ -1,0 +1,10 @@
+
+.section {
+    color: gray;
+}
+.section .div{
+    color: red;
+}
+.section .div .h1 {
+    color: blue;
+}
