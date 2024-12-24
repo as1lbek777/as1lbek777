@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@
 body{
     background-image: url('../assets/image/beautiful-winter-wallpaper-sunrise-in-a-snow-mountain-image-sr17102402-cover.webp');
     width: 100%;
-    height: 110vh;
+    height: 120vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -38,6 +39,7 @@ body{
     gap: 1rem;
     text-transform: uppercase;
     font-weight: 600;
+    padding-top:30px;
 }
 
 .container ul li a{
@@ -51,7 +53,7 @@ main section .h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     text-align: center;
-    color: #2d7acc  ;
+    color: aqua;
 }
 
 main section .p{
@@ -254,6 +256,7 @@ main section div form label:hover{
     color: aqua;
     cursor: pointer;
     text-transform: uppercase;
+    letter-spacing: 1px;
     text-shadow: 2px 2px 2px red;
 }
 
@@ -265,7 +268,7 @@ main section div form .input1:hover{
     background-color: blue;
     font-size: 18px;
     padding-left: 10px;
-    margin-left: 30px;
+    margin-left: 26px;
     cursor: pointer;
     box-shadow: 1px 1px 1px 1px white;
 }
@@ -278,7 +281,7 @@ main section div form .input2:hover{
     background-color: aqua;
     font-size: 18px;
     padding-left: 10px;
-    margin-left: 30px;
+    margin-left: 31px;
     cursor: pointer;
     box-shadow: 1px 1px 1px 1px white;
 }
@@ -291,7 +294,7 @@ main section div form .input3:hover{
     background-color:red;
     font-size: 18px;
     padding-left: 10px;
-    margin-left: 70px;
+    margin-left: 76px;
     cursor: pointer;
     box-shadow: 1px 1px 1px 1px white;
 }
@@ -304,7 +307,7 @@ main section div form .input4:hover{
     background-color: lightblue;
     font-size: 18px;
     padding-left: 10px;
-    margin-left: 30px;
+    margin-left: 29px;
     cursor: pointer;
     box-shadow: 1px 1px 1px 1px orange;
 }
@@ -316,7 +319,7 @@ main section div form .textarea1:hover{
     color: black;
     background-color: gold;
     font-size: 20px;
-    margin-left: 120px;
+    margin-left: 140px;
     cursor: pointer;
     box-shadow: 2px 2px 2px 2px black;
 }
@@ -327,10 +330,11 @@ main section div form button:hover{
     border-radius: 10px;
     cursor: pointer;
     font-size: 1.5rem;
-    color: magenta;
-    background-color: aquamarine;
+    color: black;
     text-transform: uppercase;
     font-weight: 700;
+    letter-spacing: 1px;
+    background: rgb(55,255,0);
     box-shadow: 1px 1px 1px 1px red;
 }
 
@@ -352,6 +356,8 @@ main section div form label{
     color: wheat;
     cursor: pointer;
     text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    ;
 }
 
 main section div form .label2{
@@ -367,7 +373,7 @@ main section div form .input1{
     background-color: black;
     font-size: 18px;
     padding-left: 10px;
-    margin-left: 30px;
+    margin-left: 25px;
     cursor: pointer;
 }
 
@@ -391,7 +397,7 @@ main section div form .input3{
     background-color: black;
     font-size: 18px;
     padding-left: 10px;
-    margin-left: 70px;
+    margin-left: 75px;
     cursor: pointer;
 }
 
@@ -403,7 +409,7 @@ main section div form .input4{
     background-color: black;
     font-size: 18px;
     padding-left: 10px;
-    margin-left: 30px;
+    margin-left: 28px;
     cursor: pointer;
 }
 
@@ -414,7 +420,7 @@ main section div form .textarea1{
     color: wheat;
     background-color: black;
     font-size: 18px;
-    margin-left: 120px;
+    margin-left: 140px;
     cursor: pointer;
 }
 
@@ -427,7 +433,5 @@ main section div form button {
     color: blue;
     background-color: black;
     text-transform: uppercase;
-}
-.container i{
-    display: none;
+    font-weight: 600;
 }
