@@ -1,0 +1,195 @@
+*{
+    margin: 10 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+}
+main div{
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(226,226,226);
+    border-radius: 5px;
+}
+main div p{
+    text-align: center;
+    cursor: grab;
+}
+main .div{
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: #4FC0EA;
+    border-radius: 5px;
+}
+main .div p{
+    color: white;
+    text-align: center;
+    cursor: grab;
+}
+main .div2{
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid gray;
+    background-color: gray;
+    border-radius: 5px;
+}
+main .div2 p{
+    color: white;
+    text-align: center;
+    cursor: grab;
+}
+main .div3{
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 5px;
+}
+main .div3 p{
+    color: white;
+    text-align: center;
+    cursor: grab;
+}
+main .div4{
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: #5F9CEC;
+    border-radius: 5px;
+}
+main .div4 p{
+    color: white;
+    text-align: center;
+    cursor: grab;
+}
+main .div5{
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #FFCE53;
+    background-color: #FFCE53;
+    border-radius: 5px;
+}
+main .div5 p{
+    color: white;
+    text-align: center;
+    cursor: grab;
+}
+main .div6{
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #EE5466;
+    background-color: #EE5466;
+    border-radius: 5px;
+}
+main .div6 p{
+    color: white;
+    text-align: center;
+    cursor: grab;
+}
+main .div7{
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: #4FC0EA;
+    border-radius: 30px;
+}
+main .div7 p{
+    color: white;
+    text-align: center;
+    cursor: grab;
+}
+main .div8{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #4FC0EA;
+    border-radius: 60px;
+}
+main .div8 p{
+    color: white;
+    text-align: center;
+    cursor: grab;
+}
+main .div9{
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: #A9E0F4;
+    border-radius: 5px;
+}
+main .div9 p{
+    color: #EFFFFF;
+    text-align: center;
+    cursor: grab;
+}
+main .div10{
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: #A9E0F4;
+    border-radius: 5px;
+    cursor: default;
+}
+main .div10 p{
+    color: white;
+    text-align: center;
+    cursor: grab;
+}
+main .div11{
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    border: 2px solid #C5F6FD;
+    border-radius: 5px;
+    cursor: default;
+}
+main .div11 p{
+    color: #00ffee;
+    text-align: center;
+    cursor: grab;
+}
+main .div12{
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: #4FC0EA;
+    border-radius: 5px;
+    cursor: default;
+}
+main .div12 p{
+    color: white;
+    text-align: center;
+    cursor: grab;
+}
+main .div13{
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    border: 2px dashed #4FC0EA;
+    border-radius: 5px;
+    cursor: default;
+}
+main .div13 p{
+    color: #4FC0EA;
+    text-align: center;
+    cursor: grab;
+}
+main .div14{
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: #A9E0F4;
+    border-radius: 5px;
+    cursor: default;
+}
+main .div14 p{
+    color: white;
+    text-align: center;
+    cursor: grab;
+}

@@ -1,8 +1,15 @@
-
 .section {
-    color: gray;
+    border: 50%;
+    border: 1px solid red;
 }
 .section .div{
+    width: 100%;
+    border: 1px solid green;
+    color: red;
+}
+.section .div2{
+    width: 100%;
+    border: 1px solid green;
     color: red;
 }
 .section .div .h1 {

@@ -442,3 +442,39 @@ i{
     margin: 100px;
     color: blue;
 }
+
+
+
+
+
+@media (max-width:568){
+    body{
+        background-image: url('../assets/image/beautiful-winter-wallpaper-sunrise-in-a-snow-mountain-image-sr17102402-cover.webp');
+        width: 100%;
+        height: 120vh;
+        background-repeat: no-repeat;
+    }
+
+    body .container{
+        max-width: 568px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    body .container .a{
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgb(150, 220, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        letter-spacing: 0.5px;
+    }
+
+    body .container .none_ul{
+        display: none;
+    }
+}
