@@ -1,10 +1,13 @@
 *{
-    margin: 10 auto;
+    margin: 5 auto;
     padding: 0;
     box-sizing: border-box;
 }
 main{
+    width: 100%;
+    padding: 8px;
     display: flex;
+    border: 2px solid black;
 }
 main div{
     width: 100px;
@@ -17,7 +20,7 @@ main div p{
     cursor: grab;
 }
 main .div{
-    margin-left: 10px;
+    margin-left: 5px;
     width: 100px;
     height: 50px;
     background-color: #4FC0EA;
@@ -29,7 +32,7 @@ main .div p{
     cursor: grab;
 }
 main .div2{
-    margin-left: 10px;
+    margin-left: 8px;
     width: 100px;
     height: 50px;
     border: 1px solid gray;
@@ -42,7 +45,7 @@ main .div2 p{
     cursor: grab;
 }
 main .div3{
-    margin-left: 10px;
+    margin-left: 8px;
     width: 100px;
     height: 50px;
     border: 1px solid green;
@@ -55,7 +58,7 @@ main .div3 p{
     cursor: grab;
 }
 main .div4{
-    margin-left: 10px;
+    margin-left: 8px;
     width: 100px;
     height: 50px;
     background-color: #5F9CEC;
@@ -67,7 +70,7 @@ main .div4 p{
     cursor: grab;
 }
 main .div5{
-    margin-left: 10px;
+    margin-left: 8px;
     width: 100px;
     height: 50px;
     border: 1px solid #FFCE53;
@@ -80,7 +83,7 @@ main .div5 p{
     cursor: grab;
 }
 main .div6{
-    margin-left: 10px;
+    margin-left: 8px;
     width: 100px;
     height: 50px;
     border: 1px solid #EE5466;
@@ -93,7 +96,7 @@ main .div6 p{
     cursor: grab;
 }
 main .div7{
-    margin-left: 10px;
+    margin-left: 8px;
     width: 100px;
     height: 50px;
     background-color: #4FC0EA;
@@ -105,7 +108,7 @@ main .div7 p{
     cursor: grab;
 }
 main .div8{
-    margin-left: 10px;
+    margin-left: 8px;
     width: 50px;
     height: 50px;
     background-color: #4FC0EA;
@@ -117,7 +120,7 @@ main .div8 p{
     cursor: grab;
 }
 main .div9{
-    margin-left: 10px;
+    margin-left: 8px;
     width: 100px;
     height: 50px;
     background-color: #A9E0F4;
@@ -129,7 +132,7 @@ main .div9 p{
     cursor: grab;
 }
 main .div10{
-    margin-left: 10px;
+    margin-left: 8px;
     width: 100px;
     height: 50px;
     background-color: #A9E0F4;
@@ -142,7 +145,7 @@ main .div10 p{
     cursor: grab;
 }
 main .div11{
-    margin-left: 10px;
+    margin-left: 8px;
     width: 100px;
     height: 50px;
     border: 2px solid #C5F6FD;
@@ -155,7 +158,7 @@ main .div11 p{
     cursor: grab;
 }
 main .div12{
-    margin-left: 10px;
+    margin-left: 8px;
     width: 100px;
     height: 50px;
     background-color: #4FC0EA;
@@ -168,7 +171,8 @@ main .div12 p{
     cursor: grab;
 }
 main .div13{
-    margin-left: 10px;
+    margin-top: 58px;
+    margin-left: -1310px;
     width: 100px;
     height: 50px;
     border: 2px dashed #4FC0EA;
@@ -181,15 +185,183 @@ main .div13 p{
     cursor: grab;
 }
 main .div14{
-    margin-left: 10px;
-    width: 100px;
+    margin-top: 58px;
+    margin-left: 5px;
+    width: 101px;
     height: 50px;
-    background-color: #A9E0F4;
+    border: none;
     border-radius: 5px;
     cursor: default;
 }
 main .div14 p{
+    color: #4FC0EA;
+    text-align: center;
+    cursor: grab;
+}
+main .div15{
+    margin-top: 58px;
+    margin-left: 7px;
+    width: 100px;
+    height: 50px;
+    background-color: #4FC0EA;
+    border-radius: 5px;
+    cursor: default;
+}
+main .div15 p{
     color: white;
     text-align: center;
     cursor: grab;
+}
+
+main .div16{
+    margin-top: 58px;
+    margin-left: 8px;
+    width: 100px;
+    height: 50px;
+    background-color: #4FC0EA;
+    border-radius: 5px;
+    cursor: default;
+}
+main .div16 p{
+    color: white;
+    text-align: center;
+    cursor: grab;
+}
+main .div17{
+    margin-top: 58px;
+    margin-left: 8px;
+    width: 100px;
+    height: 50px;
+    border: 2px solid #4FC0EA;
+    border-radius: 5px;
+    cursor: default;
+}
+main .div17 p{
+    color: #4FC0EA;
+    text-align: center;
+    cursor: grab;
+}
+main .div18{
+    margin-top: 58px;
+    margin-left: 8px;
+    width: 100px;
+    height: 50px;
+    background-color: #4FC0EA;
+    border-radius: 5px;
+    cursor: default;
+}
+main .div18 p{
+    color: white;
+    text-align: center;
+    cursor: grab;
+}
+main .div19{
+    margin-top: 115px;
+    margin-left: -1310px;
+    width: 150px;
+    height: 60px;
+    background-color: #93B93F;
+    border-radius: 50px;
+    cursor: default;
+}
+main .div19 p{
+    margin-top: 10px;
+    color: #4a5703;
+    cursor: grab;
+}
+main .div19 p span{
+    margin-top: -30px;
+    font-size: 10px;
+    letter-spacing: 2.8;
+    line-height: 1.8;
+    padding-top: 10px;
+
+}
+main button{
+    margin-left: 10px;
+    margin-top: 130px;
+    border-radius: 50px;
+    width: 100px;
+    border: 2px solid #93B93F;
+    height: 30px;
+    cursor: grab;
+    background-color: #93B93F;
+}
+main .div20{
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    margin-top: 120px;
+    border-radius: 0;
+}
+main .div20 p{
+
+    text-align: center;
+    color: white;
+    letter-spacing: 1.8
+}
+main .div21{
+    margin-top: 130px;
+    width: 110px;
+    height: 35px;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 60px;
+}
+main .div21 p{
+    margin-top: 8px;
+}
+main .div21 p span{
+    color: red;
+}
+
+section div{
+    width: 220px;
+    height: 250px;
+    border: 2px solid  black;
+}
+section div p{
+    margin: 0;
+    padding-top: 15px;
+    height: 80px;
+    font-size: 18px;
+    background-color: #16AB8E;
+    text-align: center;
+}
+section div form .input1{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #00ffee;
+    margin-top: 20px;
+    margin-left: 13px;
+    align-items: center;
+    width: 190px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+section div form .input2{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #00ffee;
+    margin-top: 10px;
+    margin-left: 13px;
+    align-items: center;
+    width: 190px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+section div button{
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 13px;
+    width: 190px;
+    cursor: grab;
+    background-color: #16AB8E;
 }
